@@ -59,9 +59,6 @@ Where:
 - Physics-guided deep learning models:
   - **MLP + Physics**
   - **LSTM + Physics**
-- Classical baselines:
-  - Linear Regression
-  - SARIMAX
 - Chronological split (no shuffle) to avoid temporal leakage
 - Figures saved under:
   - `analysis/images/`
@@ -336,10 +333,6 @@ This benchmarking suite reports the following evaluation metrics for each model 
 
 - **NMSE (Normalized Mean Squared Error)**
   - Variance-normalized error to allow fair comparison across horizons.
-  - Computed as:
-
-    `NMSE = MSE / Variance(y_true)`
-
   - Lower is better.
 
 ---
